@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
+    <list default="true" id="32c6dad0-e31a-42d2-a861-cfe5b754847a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/factory/BookingPriceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/factory/ManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/util/NawaazHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/factory/BookingPriceFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/factory/ManagerFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +20,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="27Ei3JvOPLo1etjx0wBIZhokeKE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,7 +46,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -40,8 +58,8 @@
       <recent name="za.ac.cput.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WaiterFactoryTest">
-    <configuration name="CustomerFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BookingPriceFactoryTest.createBooking">
+    <configuration name="BookingPriceFactoryTest.createBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group_21_ADP3-Domain_Driven_Design" />
       <extension name="coverage">
         <pattern>
@@ -50,13 +68,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="za.ac.cput.factory" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.factory.CustomerFactoryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.factory.BookingPriceFactoryTest" />
+      <option name="METHOD_NAME" value="createBooking" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaiterFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManagerFactoryTest.createManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group_21_ADP3-Domain_Driven_Design" />
       <extension name="coverage">
         <pattern>
@@ -65,16 +84,17 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="za.ac.cput.factory" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.factory.WaiterFactoryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.factory.ManagerFactoryTest" />
+      <option name="METHOD_NAME" value="createManager" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WaiterFactoryTest" />
-        <item itemvalue="JUnit.CustomerFactoryTest" />
+        <item itemvalue="JUnit.BookingPriceFactoryTest.createBooking" />
+        <item itemvalue="JUnit.ManagerFactoryTest.createManager" />
       </list>
     </recent_temporary>
   </component>
@@ -86,23 +106,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648891447616</updated>
-      <workItem from="1648921874370" duration="1426000" />
     </task>
-    <task id="LOCAL-00001" summary="218250142 - entity commit2">
-      <created>1648925260139</created>
+    <task id="LOCAL-00001" summary="219099839 - Entities - 1st commit">
+      <created>1648924429116</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1648925260139</updated>
+      <updated>1648924429116</updated>
     </task>
-    <task id="LOCAL-00002" summary="218250142 - entity commit3">
-      <created>1648925350115</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1648925350115</updated>
-    </task>
-
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,5 +128,8 @@
       </map>
     </option>
   </component>
-
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="219099839 - Entities - 1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="219099839 - Entities - 1st commit" />
+  </component>
 </project>
